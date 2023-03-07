@@ -1,0 +1,165 @@
+body {
+    background-color: #E5E5E5;
+    font-family: Gotham Pro;
+}
+
+.wrapper {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 50%; 
+    left: 50%;
+    padding: 26px 0 0 50px;
+}
+
+.master-class {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-color: white;
+    border-radius: 20px;
+    width: 750px;
+    height: 449px;
+}
+
+.image-block {
+    background-color: #EFEFEF;
+    width: 310px;
+    height: 450px;
+    border-radius: 20px 0 0 20px;
+}
+
+#step-by-step-plan {
+    position: absolute;
+    width: 286px;
+    height: 352px;
+    top: 49px; 
+    left: 12px;
+    mix-blend-mode: soft-light;
+}
+
+.book-wrapper {
+    position: absolute;
+    top: 46px;
+    left: -50px;
+    width: 394px;
+    height: 337px;
+    z-index: 2;
+}
+
+#shadow {
+    position: absolute;
+    left: 0;
+    top: 0;
+    filter: blur(138px);
+}
+
+#arrow {
+    position: absolute;
+    width: 120px;
+    height: 59.69px;
+    right: 0;
+    bottom: 0;
+}
+
+.text-block {
+    width: 55%;
+}
+
+.main-text {
+    text-align: center;
+    font-size: 14px;
+    line-height: 13.4px;
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 100%;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 28px 0 0;
+}
+
+.main-text p:first-of-type {
+    margin: 48px 0 0;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 115.15%;
+    margin: 7px 0 5px;
+    text-transform: uppercase;
+}
+
+.main-text p:nth-of-type(2) {
+    margin: 0;
+}
+
+.main-text p:nth-of-type(3) {
+    margin: 0 0 15px;
+    font-weight: 600;
+}
+
+.main-text p:last-of-type {
+    font-size: 12px;
+    margin: 0 0 34px;
+}
+
+form {
+    text-align: center;
+}
+
+form label {
+    display: inline-block;
+    text-align: left;
+    font-size: 12px;
+    padding-right: 95px;
+    margin: 0 0 6px;
+}
+
+#e-mail, #submit-button {
+    width: 323px;
+    height: 50px;
+}
+
+#e-mail {
+    padding-left: 15px;
+    box-sizing: border-box;
+    border: solid #F3CE00 2px;
+    border-radius: 4px;
+}
+
+#e-mail::placeholder {
+    font-size: 14px;
+    line-height: 13.4px;
+    font-weight: 700;
+    color: #0D0D0D;
+
+}
+
+#e-mail:focus {
+    outline: none;
+    border-color: #0068FF;
+}
+
+.email-holder, .button-holder {
+    margin: 15px 0 0;
+}
+
+#submit-button  {
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 17.6px;
+    font-weight: 900;
+    color: #fff;
+    border-width: 0;
+    border-radius: 4px;
+    padding: 16px 34px;
+    background: linear-gradient(92.64deg, #FF5621 29.24%, #F21313 83.67%);
+
+  }
+
+  #submit-button:hover {
+    opacity: 0.75;
+  }
+
